@@ -39,6 +39,6 @@ if __name__ == "__main__":
     # Example usage: move left arm
     # Replace these with your desired joint values
     joint_goals = [0.0, -0.5, 0.3, 1.2, 0.0, -0.7, 0.2]
-    move_tiago_arm("arm_left", joint_goals)
+    move_tiago_arm("arm_right", joint_goals)
 
     rospy.sleep(4)  # wait until motion completes

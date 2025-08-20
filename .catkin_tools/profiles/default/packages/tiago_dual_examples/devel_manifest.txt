@@ -1,0 +1,5 @@
+tiago_dual_examples
+/home/pal/tiago_dual_examples/devel/.private/tiago_dual_examples/cmake.lock /home/pal/tiago_dual_examples/devel/./cmake.lock
+/home/pal/tiago_dual_examples/devel/.private/tiago_dual_examples/share/tiago_dual_examples/cmake/tiago_dual_examplesConfig.cmake /home/pal/tiago_dual_examples/devel/share/tiago_dual_examples/cmake/tiago_dual_examplesConfig.cmake
+/home/pal/tiago_dual_examples/devel/.private/tiago_dual_examples/share/tiago_dual_examples/cmake/tiago_dual_examplesConfig-version.cmake /home/pal/tiago_dual_examples/devel/share/tiago_dual_examples/cmake/tiago_dual_examplesConfig-version.cmake
+/home/pal/tiago_dual_examples/devel/.private/tiago_dual_examples/lib/pkgconfig/tiago_dual_examples.pc /home/pal/tiago_dual_examples/devel/lib/pkgconfig/tiago_dual_examples.pc
