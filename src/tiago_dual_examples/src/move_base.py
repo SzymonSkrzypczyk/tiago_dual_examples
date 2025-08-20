@@ -28,7 +28,7 @@ def move_base(direction, speed, duration):
 
     rospy.loginfo(f"Moving {direction} with speed {speed} for {duration} seconds")
 
-    rate = rospy.Rate(10)  # 10 Hz
+    rate = rospy.Rate(60)
     start_time = rospy.get_time()
     while rospy.get_time() - start_time < duration:
         pub.publish(twist)
