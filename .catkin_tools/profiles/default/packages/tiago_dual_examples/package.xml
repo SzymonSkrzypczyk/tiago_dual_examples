@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>tiago_dual_examples</name>
+  <version>1.0.0</version>
+  <description>TIAGO DUAL examples</description>
+
+  <author email="szymon.skrzypczyk@vp.pl">Szymon Skrzypczyk</author>
+  <maintainer email="szymon.skrzypczyk@vp.pl">Szymon Skrzypczyk</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
+
