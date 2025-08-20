@@ -21,8 +21,8 @@ def control_gripper(gripper_side, action):
         f"gripper_{gripper_side}_right_finger_joint"
     ]
 
-    # Open = 0.0, Close = 0.045 (might need to be adjusted)
-    if action == "open":
+    # Open = 0.045, Close = 0.0 (might need to be adjusted)
+    if action == "close":
         positions = [0.0, 0.0]
     else:
         positions = [0.045, 0.045]
