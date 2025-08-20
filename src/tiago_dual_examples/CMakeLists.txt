@@ -3,6 +3,8 @@ project(tiago_dual_examples)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy
+  cv_bridge
+  sensor_msgs
   std_msgs
 )
 
