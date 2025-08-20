@@ -38,6 +38,7 @@ sudo vi collision_blacklist_right.yaml
 ```
 
 Then modify the file as follows:
+
 ![collision_blacklist_right/left](issue_tiago.png)
 
 Once the ***"ground_plane"*** and ***"base_laser_link"*** links have been added, you may save the file and exit.
@@ -46,3 +47,7 @@ Please also note that, since you have a TIAGo Dual, the same procedure **must be
 Once both files on your robot have been modified and saved correctly, please restart the robot and check whether the errors you mentioned still appear or not. Also ensure that the robot is placed in a position specified in hand-eye calibration manual. 
 
 You can achieve this by using the "offer" movement from the webCommander interface. Once the robot is in offer position, set the gravity mode and move the other arm.
+
+
+### Hope it helps!
+![Victory!](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZxd29yMTZiOHozdmFjaHNydGNveXdmYW8zdWo0dHcxdHU4amVicSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XreQmk7ETCak0/giphy.gif)
