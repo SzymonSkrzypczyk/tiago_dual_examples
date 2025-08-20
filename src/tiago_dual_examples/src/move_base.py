@@ -11,8 +11,8 @@ def move_base(direction, speed, duration):
     :param speed: linear speed (m/s) for forward/backward, angular speed (rad/s) for turning
     :param duration: time to move in seconds
     """
-    pub = rospy.Publisher("/cmd_vel", Twist, queue_size=10)
-    rospy.sleep(1) 
+    pub = rospy.Publisher("/mobile_base_controller/cmd_vel", Twist, queue_size=10)
+    rospy.sleep(1)
 
     twist = Twist()
     if direction == "forward":
@@ -37,6 +37,9 @@ def move_base(direction, speed, duration):
     # Stop the robot
     twist = Twist()
     pub.publish(twist)
+
+    rospy.sleep(1)
+
     rospy.loginfo("Movement finished, stopping TIAGo.")
 
 
